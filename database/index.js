@@ -7,7 +7,7 @@ const initOptions = {
 var pgp = require('pg-promise')(initOptions);
 
 const dbConnection = {
-  host: 'localhost',
+  host: '3.16.40.83',
   port: 5432,
   database: 'sdc-dummy',
   user: DB_USER,

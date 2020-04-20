@@ -19,7 +19,12 @@ app.use(morgan('dev'));
 app.use(cors());
 
 // start routers here
+app.get('/loaderio-51300b50a8fc03780468f70e5467d7c6.txt', (req, res) => {
+  res.send('loaderio-51300b50a8fc03780468f70e5467d7c6');
+});
 app.use(router);
 
 // listen on port
-app.listen(PORT, () => `Zion products service listening on port ${PORT}`);
+app.listen(PORT, () =>
+  console.log(`Zion products service listening on port ${PORT}`)
+);
